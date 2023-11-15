@@ -1,0 +1,9 @@
+STR_DONE = '✅ '
+STR_CANCEL = '❌ '
+
+PRICES_NATIVE = asyncio.run(get_chain_prices())
+
+ABI = load_json("utils/abi/abi.json")
+REFUEL_ABI = load_json("utils/abi/refuel.json")
+ERC20_ABI = load_json("utils/abi/erc20.json")
+STARKNET_ETH_ABI = load_json("utils/abi/starknet_eth_abi.json")
